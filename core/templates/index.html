@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon">
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <header class="header">
+        <div class="content-header">
+            <a class="logo" href="#">Py<span>Academy</span>.</a>
+            <p>Calculator</p>
+        </div>
+    </header>
+    <main>
+        <form action="" name="scaffold">
+            <div id="calculator">
+                <input type="text" id="display" name="display">
+                <div id="fist">
+                    <input 
+                    type="button" 
+                    value="7" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="8" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="9" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="/" 
+                    class="button border operator" 
+                    onclick="button(value)"
+                    >
+                </div>
+                <div id="second">
+                    <input 
+                    type="button" 
+                    value="4" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="5" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="6" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="*" 
+                    class="button border operator" 
+                    onclick="button(value)"
+                    >
+                </div>
+                <div id="third">
+                    <input 
+                    type="button" 
+                    value="1" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="2" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="3" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="-" 
+                    class="button border operator" 
+                    onclick="button(value)"
+                    >
+                </div>
+                <div id="fourth">
+                    <input 
+                    type="button" 
+                    value="C" 
+                    class="button border clean" 
+                    onclick="clean()"
+                    >
+                    <input 
+                    type="button" 
+                    value="0" 
+                    class="button border" 
+                    onclick="button(value)"
+                    >
+                    <input 
+                    type="button" 
+                    value="=" 
+                    class="button border equal" 
+                    onclick="calculate()"
+                    >
+                    <input 
+                    type="button" 
+                    value="+" 
+                    class="button border operator" 
+                    onclick="button(value)"
+                    >
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a class="logo" href="#">Py<span>Academy</span>.</a>
+        <div class="text">
+            <p>&COPY;2021 Py Academy.</p>
+            <p>Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
